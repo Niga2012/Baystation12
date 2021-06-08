@@ -58,7 +58,11 @@
 	icon_state = "blade"
 	interface_name = "nanoblade"
 	usable = FALSE
+<<<<<<< HEAD
 	gun = /obj/item/gun/energy/crossbow/ninja/mounted //inf, was null
+=======
+	gun = null
+>>>>>>> dbbbed4c9afa66bff154c4c993d9c30da1b40d21
 
 /obj/item/rig_module/mounted/flechette_rifle
 	name = "flechette rifle"
@@ -243,11 +247,19 @@
 	)
 	allowed = list(
 		/obj/item/clustertool,
+<<<<<<< HEAD
 		/obj/item/gun/energy/particle,
 		/obj/item/weldingtool/electric/mantid,
 		/obj/item/device/multitool/mantid,
 		/obj/item/stack/medical/resin,
 		/obj/item/reagent_containers/food/drinks/cans/waterbottle/ascent
+=======
+		/obj/item/weapon/gun/energy/particle,
+		/obj/item/weapon/weldingtool/electric/mantid,
+		/obj/item/device/multitool/mantid,
+		/obj/item/stack/medical/resin,
+		/obj/item/weapon/reagent_containers/food/drinks/cans/waterbottle/ascent
+>>>>>>> dbbbed4c9afa66bff154c4c993d9c30da1b40d21
 	)
 	icon_override = 'icons/mob/species/mantid/onmob_back_gyne.dmi'
 	mantid_caste = SPECIES_MANTID_GYNE
@@ -267,27 +279,55 @@
 		/obj/item/rig_module/maneuvering_jets
 	)
 
+<<<<<<< HEAD
 /obj/item/rig/mantid/nabber
+=======
+/obj/item/weapon/rig/mantid/nabber
+>>>>>>> dbbbed4c9afa66bff154c4c993d9c30da1b40d21
 	name = "serpentid combat exosuit"
 	icon_override = 'icons/mob/species/nabber/onmob_back_gas.dmi'
 	mantid_caste = SPECIES_NABBER
 	air_type =   /obj/item/tank/mantid/reactor/oxygen
 	chest_type = /obj/item/clothing/suit/space/rig/mantid/serpentid
+	initial_modules = list(
+		/obj/item/rig_module/vision/thermal,
+		/obj/item/rig_module/ai_container,
+		/obj/item/rig_module/electrowarfare_suite,
+		/obj/item/rig_module/chem_dispenser/nabber,
+		/obj/item/rig_module/device/multitool,
+		/obj/item/rig_module/device/cable_coil,
+		/obj/item/rig_module/device/welder,
+		/obj/item/rig_module/device/clustertool,
+		/obj/item/rig_module/mounted/plasmacutter,
+		/obj/item/rig_module/maneuvering_jets
+		)
 	boot_type =  null
 	allowed = list(
 		/obj/item/clustertool,
+<<<<<<< HEAD
 		/obj/item/gun/energy/particle,
 		/obj/item/weldingtool/electric/mantid,
 		/obj/item/device/multitool/mantid,
 		/obj/item/stack/medical/resin,
 		/obj/item/reagent_containers/food/drinks/cans/waterbottle/ascent
+=======
+		/obj/item/weapon/gun/energy/particle,
+		/obj/item/weapon/weldingtool/electric/mantid,
+		/obj/item/device/multitool/mantid,
+		/obj/item/stack/medical/resin,
+		/obj/item/weapon/reagent_containers/food/drinks/cans/waterbottle/ascent
+>>>>>>> dbbbed4c9afa66bff154c4c993d9c30da1b40d21
 	)
 
 /obj/item/clothing/suit/space/rig/mantid/serpentid
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS
 	species_restricted = list(SPECIES_NABBER, SPECIES_MONARCH_QUEEN)
 
+<<<<<<< HEAD
 /obj/item/rig/mantid/nabber/queen
+=======
+/obj/item/weapon/rig/mantid/nabber/queen
+>>>>>>> dbbbed4c9afa66bff154c4c993d9c30da1b40d21
 	name = "small combat exosuit"
 	icon_override = 'icons/mob/species/nabber/msq/onmob_back_msq.dmi'
 	mantid_caste = SPECIES_MONARCH_QUEEN
@@ -308,11 +348,19 @@
 	)
 	allowed = list(
 		/obj/item/clustertool,
+<<<<<<< HEAD
 		/obj/item/gun/energy/particle/small,
 		/obj/item/weldingtool/electric/mantid,
 		/obj/item/device/multitool/mantid,
 		/obj/item/stack/medical/resin,
 		/obj/item/reagent_containers/food/drinks/cans/waterbottle/ascent
+=======
+		/obj/item/weapon/gun/energy/particle/small,
+		/obj/item/weapon/weldingtool/electric/mantid,
+		/obj/item/device/multitool/mantid,
+		/obj/item/stack/medical/resin,
+		/obj/item/weapon/reagent_containers/food/drinks/cans/waterbottle/ascent
+>>>>>>> dbbbed4c9afa66bff154c4c993d9c30da1b40d21
 	)
 
 /obj/item/rig/mantid/mob_can_equip(var/mob/M, var/slot)
@@ -333,7 +381,6 @@
 		SPECIES_NABBER =         'icons/mob/species/nabber/onmob_head_gas.dmi',
 		SPECIES_MONARCH_QUEEN =  'icons/mob/species/nabber/msq/onmob_head_msq.dmi'
 		)
-	tint = 1 //INF, WAS NOTHING. High tech
 
 /obj/item/clothing/suit/space/rig/mantid
 	desc = "It's closer to a mech than a suit."
@@ -423,7 +470,11 @@
 		/obj/item/rig_module/maneuvering_jets
 	)
 
+<<<<<<< HEAD
 /obj/item/rig/mantid/nabber/queen/seed
+=======
+/obj/item/weapon/rig/mantid/nabber/queen/seed
+>>>>>>> dbbbed4c9afa66bff154c4c993d9c30da1b40d21
 	name = "small support exosuit"
 	online_slowdown = 1
 	armor = list(
@@ -447,7 +498,11 @@
 		/obj/item/rig_module/maneuvering_jets
 	)
 
+<<<<<<< HEAD
 /obj/item/rig/mantid/nabber/seed
+=======
+/obj/item/weapon/rig/mantid/nabber/seed
+>>>>>>> dbbbed4c9afa66bff154c4c993d9c30da1b40d21
 	name = "serpentid support exosuit"
 	online_slowdown = 1
 	armor = list(
